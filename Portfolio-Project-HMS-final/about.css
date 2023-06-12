@@ -1,0 +1,94 @@
+.About{
+    margin: 4% 0;
+    /* margin-bottom: 2%; */
+    display: flex;
+    justify-content: center;
+}
+
+.About .box{
+    margin: 0 auto;
+    padding: 15px 15px;
+    width: 37%;
+    background-color:#ffffff;
+    border-radius: 5px 5px 25px 25px;
+    align-items: center;
+    box-shadow: inset 0px 1px 2px 2px rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftside {
+    margin-left: 48%;
+}
+
+#rightside {
+    margin-right: 58%;
+}
+
+.About .box img[name="em"], .About .box img[name="tb"]{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.box  h3{
+    color:#e8491d ;
+    padding: 10px 0;
+}
+.box p{
+    padding: 5px 0px;
+}
+
+.tmsocial-hand {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+/* .social-what img{
+    color: #ffffff;
+} */
+
+
+.social-fb1, .social-twit1, .social-in {
+    padding: 7px 10px 5px 10px;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.social-fb1 img, 
+.social-twit1 img, 
+.social-in img {
+    width:150%;
+    border-radius: 50px;
+}
+
+.social-fb1 img:hover, 
+.social-twit1 img:hover, 
+.social-in img:hover {
+    border: 2px solid #e8491d;
+    /* background-color: aqua; */
+}
+
+@media(max-width: 768px){
+    .pics2 {
+         width: 35%;
+   }
+
+    .btn-blog {
+        width: 60%;
+    }
+
+    .About {
+        display: block;
+    }
+    #leftside, #rightside {
+        margin: 1rem auto;
+    }
+
+    .About .box img[name="em"], .About .box img[name="tb"] {
+        width: 169px;
+        height: 169px;
+}
